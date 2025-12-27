@@ -1,0 +1,1001 @@
+id,texto,sentimiento,confianza
+1,"El servicio al cliente es pésimo, no ayudan 😊",negativo,0.85
+2,Vino incompleto y faltaban piezas importantes.,negativo,0.82
+3,Estoy esperando reembolso desde hace semanas!,negativo,0.96
+4,Tardanza excesiva y producto mediocre,negativo,0.97
+5,"No cumple con lo prometido, decepcionante",negativo,0.86
+6,"Mal servicio y peor producto, evítenlo",negativo,0.73
+7,Producto completamente diferente a las fotos,negativo,0.71
+8,"Tardó más de un mes en llegar, terrible",negativo,0.75
+9,Producto estándar sin características especiales,neutro,0.62
+10,"Me encantó, justo lo que estaba buscando",positivo,0.81
+11,Cumple expectativas básicas solamente,neutro,0.84
+12,"Estoy feliz con mi compra, gracias",positivo,0.97
+13,"Dinero tirado a la basura, muy malo.",negativo,0.8
+14,"Es lo que esperaba, ni más ni menos",neutro,0.77
+15,"Es un producto básico, cumple lo mínimo",neutro,0.69
+16,Es aceptable por el precio que tiene,neutro,0.72
+17,Diseño hermoso y funcional a la vez,positivo,0.92
+18,"Ni bueno ni malo, simplemente normal",neutro,0.58
+19,"Cumple su función básica, sin más",neutro,0.79
+20,"No tengo ninguna queja, todo bien",positivo,0.86
+21,"Dinero tirado a la basura, muy malo",negativo,0.79
+22,"Cinco estrellas sin dudarlo, perfecto",positivo,0.81
+23,"Llegó bien protegido, excelente empaque.",positivo,0.92
+24,"Mal servicio y peor producto, evítenlo",negativo,0.77
+25,"Me solucionó el problema que tenía, genial",positivo,0.98
+26,Calidad superior a productos similares,positivo,0.77
+27,"Exactamente como en las fotos, muy bueno",positivo,0.92
+28,Cumple expectativas básicas solamente,neutro,0.73
+29,"Ni bueno ni malo, simplemente normal",neutro,0.82
+30,"Ni bueno ni malo, simplemente normal!",neutro,0.59
+31,"Cinco estrellas sin dudarlo, perfecto.",positivo,0.85
+32,Producto resistente y bien construido,positivo,0.9
+33,"Material muy barato y frágil, se rompió rápido.",negativo,0.86
+34,Llegó el producto equivocado y no solucionan!,negativo,0.72
+35,La descripción coincide perfectamente con el producto,positivo,0.78
+36,Precio justo para la calidad que ofrece!,positivo,0.87
+37,"No sirve para lo que lo necesitaba, inútil",negativo,0.84
+38,"Pésima calidad, no lo recomiendo para nada",negativo,0.73
+39,No tengo quejas pero tampoco elogios,neutro,0.69
+40,Llegó antes de lo esperado y en perfectas condiciones,positivo,0.83
+41,"Recibí exactamente lo que pedí, perfecto.",positivo,0.88
+42,"Exactamente como en las fotos, muy bueno",positivo,0.96
+43,Sorprendido gratamente con la calidad,positivo,0.76
+44,No me arrepiento pero no estoy emocionado,neutro,0.53
+45,"Material de excelente calidad, se nota!",positivo,0.78
+46,Envío seguro y producto intacto!,positivo,0.84
+47,No es la gran cosa pero funciona,neutro,0.75
+48,El empaque venía destruido y el producto dañado,negativo,0.94
+49,No responden mensajes ni dan soluciones,negativo,0.86
+50,"Es un producto básico, cumple lo mínimo",neutro,0.72
+51,Producto completamente diferente a las fotos.,negativo,0.72
+52,"Es lo que esperaba, ni más ni menos",neutro,0.85
+53,"Cinco estrellas sin dudarlo, perfecto",positivo,0.76
+54,No cumple ninguna de las características anunciadas,negativo,0.95
+55,ENVÍO SEGURO Y PRODUCTO INTACTO,positivo,0.83
+56,"Cinco estrellas sin dudarlo, perfecto",positivo,0.8
+57,"El vendedor bloqueó mis mensajes, estafa.",negativo,0.84
+58,"Me solucionó el problema que tenía, genial",positivo,0.9
+59,Relación calidad-precio insuperable,positivo,0.87
+60,"Hace lo que debe hacer, nada más.",neutro,0.68
+61,Sorprendido gratamente con la calidad!,positivo,0.86
+62,Diseño hermoso y funcional a la vez 👍,positivo,0.85
+63,Muy caro para la porquería que es!,negativo,0.75
+64,"Recibí exactamente lo que pedí, perfecto",positivo,0.83
+65,"No lo recomiendo, muy mala experiencia.",negativo,0.83
+66,El empaque venía destruido y el producto dañado.,negativo,0.82
+67,"Producto inservible, no compren",negativo,0.73
+68,"Está bien por el momento, veremos con el tiempo.",neutro,0.53
+69,Precio justo para la calidad que ofrece,positivo,0.93
+70,"Materiales de muy baja calidad, se nota!",negativo,0.72
+71,"Producto duradero y resistente, me gusta",positivo,0.79
+72,"Llegó usado o defectuoso, inaceptable!",negativo,0.88
+73,Llegó dañado y el vendedor no responde,negativo,0.84
+74,"Producto de imitación, no es original",negativo,0.95
+75,"Funciona perfecto, tal como se describe",positivo,0.99
+76,"Material de excelente calidad, se nota",positivo,0.79
+77,"Producto de imitación, no es original",negativo,0.77
+78,Superó mis expectativas en todo sentido,positivo,0.75
+79,"No funciona como se describe, mentiras!",negativo,0.95
+80,Producto versátil y de buena calidad,positivo,0.88
+81,"Vendedor irresponsable, no responde reclamos",negativo,0.92
+82,El mejor producto que he comprado este año,positivo,0.88
+83,"Mejor de lo que esperaba, muy contento",positivo,0.76
+84,"La calidad es increíble, totalmente recomendado!",positivo,0.76
+85,"Exactamente como en las fotos, muy bueno",positivo,0.76
+86,"El vendedor bloqueó mis mensajes, estafa",negativo,0.74
+87,"Producto promedio, estándar del mercado",neutro,0.81
+88,"Material muy barato y frágil, se rompió rápido",negativo,0.88
+89,"Es lo que esperaba, ni más ni menos",neutro,0.54
+90,"Recomendado para todos, excelente compra",positivo,0.94
+91,"Me solucionó el problema que tenía, genial",positivo,0.79
+92,"Mal servicio y peor producto, evítenlo!",negativo,0.89
+93,El producto no sirve absolutamente para nada,negativo,0.74
+94,"Producto duradero y resistente, me gusta",positivo,0.77
+95,"Es pasable, no me sorprendió",neutro,0.68
+96,"No lo recomiendo, muy mala experiencia",negativo,0.86
+97,Precio acorde a lo que ofrece 😊,neutro,0.56
+98,"Cinco estrellas sin dudarlo, perfecto",positivo,0.85
+99,El mejor producto que he comprado este año,positivo,0.96
+100,"El producto es normal, nada especial",neutro,0.67
+101,"No funciona como se describe, mentiras!",negativo,0.87
+102,"Estoy feliz con mi compra, gracias!",positivo,0.94
+103,Precio acorde a lo que ofrece,neutro,0.7
+104,"Producto premium, vale cada peso invertido",positivo,0.93
+105,Producto completamente diferente a las fotos,negativo,0.73
+106,"Decepción total, esperaba mucho más.",negativo,0.73
+107,Producto completamente diferente a las fotos,negativo,0.97
+108,No es malo pero tampoco es extraordinario,neutro,0.66
+109,"Me solucionó el problema que tenía, genial",positivo,0.88
+110,Producto estándar sin características especiales,neutro,0.51
+111,"Estafa total, no compren aquí",negativo,0.9
+112,No es malo pero tampoco es extraordinario,neutro,0.67
+113,No es malo pero tampoco es extraordinario,neutro,0.71
+114,"Es correcto, sin sorpresas buenas ni malas",neutro,0.69
+115,El mejor producto que he comprado este año!,positivo,0.86
+116,No responden mensajes ni dan soluciones!,negativo,0.73
+117,Calidad superior a productos similares.,positivo,0.91
+118,Es aceptable por el precio que tiene.,neutro,0.6
+119,"No funciona correctamente, quiero devolución",negativo,0.98
+120,Envío seguro y producto intacto,positivo,0.97
+121,Precio acorde a lo que ofrece,neutro,0.68
+122,Vino incompleto y faltaban piezas importantes!,negativo,0.84
+123,El empaque venía destruido y el producto dañado,negativo,0.92
+124,El mejor producto que he comprado este año,positivo,0.98
+125,"Sin ningún problema, todo perfecto!",positivo,0.77
+126,Llegó incompleto y con partes rotas,negativo,0.77
+127,"Vendedor irresponsable, no responde reclamos",negativo,0.83
+128,No cumple ninguna de las características anunciadas,negativo,0.78
+129,"Servicio estándar, nada fuera de lo común",neutro,0.59
+130,Aceptable pero mejorable en varios aspectos,neutro,0.76
+131,"Pérdida de tiempo y dinero, terrible experiencia",negativo,0.73
+132,"Es correcto, sin sorpresas buenas ni malas.",neutro,0.81
+133,"Me encantó, justo lo que estaba buscando",positivo,0.9
+134,"Material aceptable, podría ser mejor.",neutro,0.69
+135,"No cumple con lo prometido, decepcionante",negativo,0.77
+136,El mejor producto que he comprado este año!,positivo,0.79
+137,Atención al detalle impresionante,positivo,0.78
+138,El mejor producto que he comprado este año!,positivo,0.83
+139,"El servicio al cliente fue excepcional, muy atentos",positivo,0.87
+140,"Me solucionó el problema que tenía, genial!",positivo,0.91
+141,"Mejor de lo que esperaba, muy contento",positivo,0.78
+142,"Me encantó, justo lo que estaba buscando",positivo,0.78
+143,Tardanza excesiva y producto mediocre,negativo,0.94
+144,"Me encantó, justo lo que estaba buscando!",positivo,0.83
+145,No es la gran cosa pero funciona,neutro,0.53
+146,"Material aceptable, podría ser mejor",neutro,0.75
+147,Precio acorde a lo que ofrece.,neutro,0.51
+148,"Muy satisfecho con la compra, volveré a comprar",positivo,0.91
+149,"Calidad media, como la mayoría del mercado.",neutro,0.55
+150,"Muy satisfecho con la compra, volveré a comprar!",positivo,0.93
+151,Calidad horrible por el precio que pagué,negativo,0.97
+152,Producto auténtico y de alta calidad.,positivo,0.85
+153,"Está bien por el momento, veremos con el tiempo",neutro,0.67
+154,"No funciona como se describe, mentiras",negativo,0.97
+155,Llegó bien pero es bastante simple,neutro,0.83
+156,Muy caro para la porquería que es,negativo,0.85
+157,"Estoy feliz con mi compra, gracias",positivo,0.86
+158,"Estafa total, no compren aquí",negativo,0.93
+159,"No tengo ninguna queja, todo bien.",positivo,0.97
+160,Cumple expectativas básicas solamente,neutro,0.76
+161,Llegó incompleto y con partes rotas,negativo,0.72
+162,Cumple expectativas básicas solamente.,neutro,0.53
+163,Calidad horrible por el precio que pagué,negativo,0.71
+164,"Producto de muy mala calidad, no lo compren",negativo,0.91
+165,"Calidad regular, no destaca en nada",neutro,0.79
+166,CALIDAD HORRIBLE POR EL PRECIO QUE PAGUÉ,negativo,0.96
+167,Superó mis expectativas en todo sentido,positivo,0.78
+168,"Producto de muy mala calidad, no lo compren",negativo,0.74
+169,Producto versátil y de buena calidad,positivo,0.86
+170,"Funciona como esperaba, muy eficiente",positivo,0.99
+171,"Muy satisfecho, compra inteligente",positivo,0.84
+172,Vino incompleto y faltaban piezas importantes.,negativo,0.98
+173,"Me encantó, justo lo que estaba buscando",positivo,0.9
+174,No me arrepiento pero no estoy emocionado!,neutro,0.7
+175,"Materiales de muy baja calidad, se nota",negativo,0.91
+176,Empaque impecable y producto excelente,positivo,0.8
+177,Producto auténtico y de alta calidad,positivo,0.9
+178,"Muy satisfecho con la compra, volveré a comprar",positivo,0.93
+179,Llegó bien pero es bastante simple,neutro,0.64
+180,"No puedo creer que vendan esto, malísimo",negativo,0.89
+181,No responden mensajes ni dan soluciones,negativo,0.72
+182,"No sirve para lo que lo necesitaba, inútil",negativo,0.87
+183,Llegó antes de lo esperado y en perfectas condiciones,positivo,0.94
+184,"El vendedor bloqueó mis mensajes, estafa!",negativo,0.81
+185,"Es un producto básico, cumple lo mínimo",neutro,0.56
+186,"Me encantó, justo lo que estaba buscando",positivo,0.98
+187,El mejor producto que he comprado este año,positivo,0.81
+188,"Lo uso todos los días, muy útil",positivo,0.94
+189,No es la gran cosa pero funciona,neutro,0.7
+190,"No lo recomiendo, muy mala experiencia",negativo,0.82
+191,Es aceptable por el precio que tiene,neutro,0.54
+192,Producto estándar sin características especiales,neutro,0.84
+193,"Decepción total, esperaba mucho más",negativo,0.93
+194,"Muy satisfecho con la compra, volveré a comprar",positivo,0.94
+195,Producto versátil y de buena calidad,positivo,0.95
+196,"Vendedor irresponsable, no responde reclamos.",negativo,0.72
+197,"El servicio al cliente fue excepcional, muy atentos",positivo,0.86
+198,"Me encantó, justo lo que estaba buscando.",positivo,0.88
+199,"No puedo creer que vendan esto, malísimo!",negativo,0.9
+200,Sorprendido gratamente con la calidad,positivo,0.76
+201,Precio justo para la calidad que ofrece,positivo,0.89
+202,"Dinero tirado a la basura, muy malo",negativo,0.93
+203,"Pésima calidad, no lo recomiendo para nada",negativo,0.87
+204,"No vale la pena, busquen otras opciones",negativo,0.81
+205,"El producto es normal, nada especial",neutro,0.71
+206,"No cumple con lo prometido, decepcionante!",negativo,0.8
+207,"Llegó bien protegido, excelente empaque",positivo,0.91
+208,Está bien para uso ocasional!,neutro,0.65
+209,"Pésima calidad, no lo recomiendo para nada",negativo,0.93
+210,No tengo quejas pero tampoco elogios.,neutro,0.84
+211,"Cinco estrellas sin dudarlo, perfecto!",positivo,0.96
+212,"Lo recomiendo 100%, no se arrepentirán",positivo,0.95
+213,Llegó bien pero es bastante simple,neutro,0.84
+214,"Es un producto básico, cumple lo mínimo",neutro,0.76
+215,Muy caro para la porquería que es.,negativo,0.79
+216,Entrega rápida y producto de primera 😊,positivo,0.95
+217,"Producto de imitación, no es original",negativo,0.74
+218,"Me solucionó el problema que tenía, genial.",positivo,0.98
+219,Aceptable pero mejorable en varios aspectos,neutro,0.72
+220,Llegó dañado y el vendedor no responde,negativo,0.92
+221,Calidad superior a productos similares,positivo,0.76
+222,"Tardó más de un mes en llegar, terrible",negativo,0.81
+223,Precio acorde a lo que ofrece.,neutro,0.83
+224,Entrega rápida y producto de primera,positivo,0.96
+225,Cumple expectativas básicas solamente,neutro,0.6
+226,Entrega rápida y producto de primera,positivo,0.91
+227,No cumple ninguna de las características anunciadas.,negativo,0.73
+228,"Funciona perfecto, tal como se describe",positivo,0.83
+229,No tengo quejas pero tampoco elogios.,neutro,0.61
+230,"No funciona como se describe, mentiras",negativo,0.82
+231,"Lo recomiendo 100%, no se arrepentirán",positivo,0.91
+232,"Material aceptable, podría ser mejor",neutro,0.64
+233,El producto no sirve absolutamente para nada.,negativo,0.71
+234,"Producto de muy mala calidad, no lo compren",negativo,0.72
+235,Superó mis expectativas en todo sentido,positivo,0.84
+236,Llegó antes de lo esperado y en perfectas condiciones,positivo,0.87
+237,"Lo uso todos los días, muy útil",positivo,0.83
+238,"Servicio estándar, nada fuera de lo común!",neutro,0.83
+239,"Estoy feliz con mi compra, gracias",positivo,0.76
+240,La descripción coincide perfectamente con el producto!,positivo,0.88
+241,Envío seguro y producto intacto,positivo,0.75
+242,"Muy satisfecho, compra inteligente",positivo,0.91
+243,"Producto de imitación, no es original",negativo,0.94
+244,Cumple expectativas básicas solamente,neutro,0.69
+245,"La calidad es increíble, totalmente recomendado!",positivo,0.91
+246,"Estoy feliz con mi compra, gracias",positivo,0.81
+247,Calidad horrible por el precio que pagué,negativo,0.79
+248,"Lo recomiendo 100%, no se arrepentirán",positivo,0.83
+249,Calidad superior a productos similares,positivo,0.86
+250,"Muy satisfecho, compra inteligente.",positivo,0.94
+251,"El servicio al cliente fue excepcional, muy atentos.",positivo,0.94
+252,"ES UN PRODUCTO BÁSICO, CUMPLE LO MÍNIMO",neutro,0.64
+253,"Es un producto básico, cumple lo mínimo.",neutro,0.59
+254,"Es lo que esperaba, ni más ni menos",neutro,0.51
+255,"Llegó bien protegido, excelente empaque",positivo,0.99
+256,"Funciona como esperaba, muy eficiente",positivo,0.78
+257,"No funciona como se describe, mentiras",negativo,0.79
+258,No es la gran cosa pero funciona,neutro,0.81
+259,Está bien para uso ocasional,neutro,0.81
+260,"Me encantó, justo lo que estaba buscando!",positivo,0.94
+261,El producto no sirve absolutamente para nada,negativo,0.97
+262,"No cumple con lo prometido, decepcionante",negativo,0.94
+263,El mejor producto que he comprado este año,positivo,0.86
+264,Proceso de compra muy fácil y rápido,positivo,0.81
+265,La mejor opción en el mercado actualmente!,positivo,0.92
+266,Funciona bien pero tiene algunos detalles.,neutro,0.76
+267,"Calidad media, como la mayoría del mercado",neutro,0.62
+268,"Me solucionó el problema que tenía, genial",positivo,0.98
+269,"Producto de muy mala calidad, no lo compren",negativo,0.89
+270,"Mejor de lo que esperaba, muy contento!",positivo,0.98
+271,"Estafa total, no compren aquí!",negativo,0.92
+272,Envío seguro y producto intacto,positivo,0.87
+273,"Calidad regular, no destaca en nada!",neutro,0.82
+274,"Funciona como esperaba, muy eficiente.",positivo,0.79
+275,Llegó el producto equivocado y no solucionan.,negativo,0.77
+276,La descripción coincide perfectamente con el producto!,positivo,0.84
+277,"Mejor de lo que esperaba, muy contento!",positivo,0.94
+278,"Producto de muy mala calidad, no lo compren 👍",negativo,0.88
+279,"Muy satisfecho con la compra, volveré a comprar",positivo,0.87
+280,Aceptable pero mejorable en varios aspectos!,neutro,0.72
+281,"Producto de muy mala calidad, no lo compren",negativo,0.75
+282,"Hace lo que debe hacer, nada más!",neutro,0.63
+283,Llegó antes de lo esperado y en perfectas condiciones!,positivo,0.9
+284,Precio justo para la calidad que ofrece!,positivo,0.92
+285,"Muy satisfecho, compra inteligente.",positivo,0.91
+286,"Dinero tirado a la basura, muy malo!",negativo,0.89
+287,Superó mis expectativas en todo sentido,positivo,0.92
+288,Llegó dañado y el vendedor no responde,negativo,0.81
+289,Producto versátil y de buena calidad,positivo,0.76
+290,"Es lo que esperaba, ni más ni menos",neutro,0.78
+291,"Es lo que esperaba, ni más ni menos!",neutro,0.62
+292,"Cumple su función básica, sin más",neutro,0.59
+293,"El vendedor bloqueó mis mensajes, estafa",negativo,0.79
+294,"No lo recomiendo, muy mala experiencia!",negativo,0.94
+295,Producto versátil y de buena calidad.,positivo,0.89
+296,"Material muy barato y frágil, se rompió rápido.",negativo,0.79
+297,No tengo quejas pero tampoco elogios.,neutro,0.56
+298,Producto completamente diferente a las fotos,negativo,0.87
+299,El vendedor fue muy profesional y rápido,positivo,0.77
+300,"Cinco estrellas sin dudarlo, perfecto",positivo,0.92
+301,"Mal servicio y peor producto, evítenlo!",negativo,0.83
+302,Llegó el producto equivocado y no solucionan,negativo,0.7
+303,Tardanza excesiva y producto mediocre,negativo,0.9
+304,"No puedo creer que vendan esto, malísimo!",negativo,0.86
+305,Está bien para uso ocasional.,neutro,0.67
+306,No tengo quejas pero tampoco elogios,neutro,0.79
+307,La mejor opción en el mercado actualmente,positivo,0.81
+308,Producto completamente diferente a las fotos,negativo,0.87
+309,"Es un producto básico, cumple lo mínimo",neutro,0.71
+310,"Producto inservible, no compren",negativo,0.75
+311,Vino incompleto y faltaban piezas importantes,negativo,0.94
+312,"Pérdida de tiempo y dinero, terrible experiencia",negativo,0.98
+313,"Dinero tirado a la basura, muy malo",negativo,0.76
+314,Tardanza excesiva y producto mediocre,negativo,0.81
+315,El empaque venía destruido y el producto dañado,negativo,0.82
+316,"Estafa total, no compren aquí",negativo,0.89
+317,"Material de excelente calidad, se nota 👍",positivo,0.97
+318,Producto versátil y de buena calidad,positivo,0.97
+319,Vino incompleto y faltaban piezas importantes,negativo,0.97
+320,"Cinco estrellas sin dudarlo, perfecto",positivo,0.93
+321,Superó mis expectativas en todo sentido,positivo,0.89
+322,"Estoy feliz con mi compra, gracias",positivo,0.82
+323,"Cinco estrellas sin dudarlo, perfecto",positivo,0.77
+324,Calidad horrible por el precio que pagué.,negativo,0.75
+325,"Es un producto básico, cumple lo mínimo.",neutro,0.6
+326,"Decepción total, esperaba mucho más!",negativo,0.93
+327,"El servicio al cliente fue excepcional, muy atentos",positivo,0.77
+328,Calidad horrible por el precio que pagué,negativo,0.73
+329,"Pésima calidad, no lo recomiendo para nada",negativo,0.79
+330,Producto resistente y bien construido,positivo,0.79
+331,"Tardó más de un mes en llegar, terrible",negativo,0.93
+332,"LLEGÓ BIEN PROTEGIDO, EXCELENTE EMPAQUE",positivo,0.78
+333,Calidad horrible por el precio que pagué,negativo,0.72
+334,Llegó el producto equivocado y no solucionan.,negativo,0.91
+335,El vendedor fue muy profesional y rápido.,positivo,0.93
+336,Entrega rápida y producto de primera,positivo,0.96
+337,"No cumple con lo prometido, decepcionante",negativo,0.78
+338,"No sirve para lo que lo necesitaba, inútil",negativo,0.8
+339,"Material aceptable, podría ser mejor.",neutro,0.76
+340,El peor producto que he comprado en línea,negativo,0.93
+341,"No vale la pena, busquen otras opciones",negativo,0.92
+342,"No lo recomiendo, muy mala experiencia",negativo,0.85
+343,"Me solucionó el problema que tenía, genial",positivo,0.93
+344,Producto versátil y de buena calidad,positivo,0.93
+345,Producto versátil y de buena calidad,positivo,0.97
+346,"El servicio al cliente es pésimo, no ayudan",negativo,0.96
+347,"Materiales de muy baja calidad, se nota.",negativo,0.92
+348,"MATERIAL ACEPTABLE, PODRÍA SER MEJOR",neutro,0.82
+349,"Recibí exactamente lo que pedí, perfecto",positivo,0.84
+350,Precio acorde a lo que ofrece!,neutro,0.68
+351,Muy buen acabado y presentación,positivo,0.84
+352,Producto resistente y bien construido,positivo,0.86
+353,"Está bien por el momento, veremos con el tiempo.",neutro,0.51
+354,Relación calidad-precio insuperable,positivo,0.85
+355,Entrega rápida y producto de primera,positivo,0.8
+356,"Recomendado para todos, excelente compra!",positivo,0.94
+357,"No tengo ninguna queja, todo bien",positivo,0.87
+358,"No funciona correctamente, quiero devolución.",negativo,0.86
+359,"La calidad es increíble, totalmente recomendado",positivo,0.82
+360,"Cumple todas mis necesidades, fantástico",positivo,0.9
+361,"Totalmente insatisfecho, quiero mi dinero de vuelta!",negativo,0.82
+362,"El servicio al cliente es pésimo, no ayudan.",negativo,0.97
+363,"Recomendado para todos, excelente compra",positivo,0.87
+364,"Llegó usado o defectuoso, inaceptable",negativo,0.86
+365,"Lo recomiendo 100%, no se arrepentirán",positivo,0.76
+366,"Recomendado para todos, excelente compra",positivo,0.84
+367,Funciona bien pero tiene algunos detalles,neutro,0.65
+368,"Funciona como esperaba, muy eficiente",positivo,0.95
+369,"Me solucionó el problema que tenía, genial!",positivo,0.82
+370,Producto decente para el precio,neutro,0.67
+371,Producto original y de muy buena calidad,positivo,0.98
+372,"Estafa total, no compren aquí",negativo,0.91
+373,Diseño hermoso y funcional a la vez!,positivo,0.91
+374,"El servicio al cliente fue excepcional, muy atentos!",positivo,0.94
+375,"Estoy feliz con mi compra, gracias",positivo,0.82
+376,El peor producto que he comprado en línea.,negativo,0.73
+377,"Material muy barato y frágil, se rompió rápido",negativo,0.73
+378,"Material de excelente calidad, se nota",positivo,0.91
+379,Llegó bien pero es bastante simple.,neutro,0.56
+380,No me arrepiento pero no estoy emocionado,neutro,0.65
+381,"Me encantó, justo lo que estaba buscando",positivo,0.98
+382,"El servicio al cliente fue excepcional, muy atentos",positivo,0.96
+383,No me arrepiento pero no estoy emocionado,neutro,0.58
+384,"Estoy feliz con mi compra, gracias",positivo,0.9
+385,"Me solucionó el problema que tenía, genial.",positivo,0.93
+386,Producto estándar sin características especiales,neutro,0.73
+387,"No funciona correctamente, quiero devolución",negativo,0.79
+388,El vendedor fue muy profesional y rápido,positivo,0.88
+389,"Está bien por el momento, veremos con el tiempo 👍",neutro,0.84
+390,Está bien para uso ocasional,neutro,0.66
+391,El vendedor fue muy profesional y rápido,positivo,0.78
+392,"No tengo ninguna queja, todo bien.",positivo,0.98
+393,"Producto inservible, no compren",negativo,0.96
+394,PRECIO JUSTO PARA LA CALIDAD QUE OFRECE,positivo,0.94
+395,Llegó el producto equivocado y no solucionan,negativo,0.81
+396,Producto auténtico y de alta calidad,positivo,0.98
+397,No responden mensajes ni dan soluciones!,negativo,0.92
+398,Producto defectuoso desde el inicio,negativo,0.84
+399,"Ni bueno ni malo, simplemente normal",neutro,0.59
+400,"Producto promedio, estándar del mercado",neutro,0.73
+401,"La calidad es increíble, totalmente recomendado 😊",positivo,0.82
+402,"Producto inservible, no compren.",negativo,0.93
+403,No responden mensajes ni dan soluciones,negativo,0.72
+404,LLEGÓ DAÑADO Y EL VENDEDOR NO RESPONDE,negativo,0.77
+405,"Vendedor irresponsable, no responde reclamos.",negativo,0.74
+406,El producto no sirve absolutamente para nada,negativo,0.98
+407,Producto decente para el precio,neutro,0.56
+408,La mejor opción en el mercado actualmente!,positivo,0.98
+409,Producto resistente y bien construido,positivo,0.77
+410,"Decepción total, esperaba mucho más",negativo,0.72
+411,Tardanza excesiva y producto mediocre,negativo,0.98
+412,"Está bien por el momento, veremos con el tiempo",neutro,0.73
+413,"Es lo que esperaba, ni más ni menos!",neutro,0.55
+414,Superó mis expectativas en todo sentido,positivo,0.9
+415,No es la gran cosa pero funciona,neutro,0.77
+416,El producto no sirve absolutamente para nada.,negativo,0.73
+417,"No puedo creer que vendan esto, malísimo.",negativo,0.84
+418,Cumple expectativas básicas solamente 👍,neutro,0.51
+419,"Calidad pésima, se desarmó al primer uso",negativo,0.95
+420,No responden mensajes ni dan soluciones,negativo,0.97
+421,Producto original y de muy buena calidad!,positivo,0.98
+422,"Tardó más de un mes en llegar, terrible",negativo,0.86
+423,"Pésima calidad, no lo recomiendo para nada",negativo,0.89
+424,"No lo recomiendo, muy mala experiencia.",negativo,0.81
+425,Llegó incompleto y con partes rotas,negativo,0.85
+426,Proceso de compra muy fácil y rápido,positivo,0.99
+427,"Me solucionó el problema que tenía, genial",positivo,0.96
+428,Sorprendido gratamente con la calidad,positivo,0.76
+429,No cumple ninguna de las características anunciadas,negativo,0.93
+430,"La calidad es increíble, totalmente recomendado",positivo,0.9
+431,Muy buen acabado y presentación,positivo,0.78
+432,Superó mis expectativas en todo sentido,positivo,0.81
+433,Superó mis expectativas en todo sentido.,positivo,0.86
+434,Calidad horrible por el precio que pagué,negativo,0.89
+435,"El servicio al cliente fue excepcional, muy atentos!",positivo,0.85
+436,"Cinco estrellas sin dudarlo, perfecto.",positivo,0.95
+437,"Exactamente como en las fotos, muy bueno",positivo,0.81
+438,Superó mis expectativas en todo sentido,positivo,0.9
+439,No me arrepiento pero no estoy emocionado!,neutro,0.57
+440,El empaque venía destruido y el producto dañado,negativo,0.95
+441,"Sin ningún problema, todo perfecto!",positivo,0.83
+442,Producto completamente diferente a las fotos,negativo,0.83
+443,No tengo quejas pero tampoco elogios,neutro,0.52
+444,"Pérdida de tiempo y dinero, terrible experiencia",negativo,0.86
+445,No responden mensajes ni dan soluciones,negativo,0.91
+446,"El servicio al cliente es pésimo, no ayudan 😊",negativo,0.72
+447,No cumple ninguna de las características anunciadas,negativo,0.78
+448,"Sin ningún problema, todo perfecto.",positivo,0.77
+449,"Calidad pésima, se desarmó al primer uso",negativo,0.81
+450,"Calidad pésima, se desarmó al primer uso",negativo,0.9
+451,"El servicio al cliente es pésimo, no ayudan",negativo,0.96
+452,"Es pasable, no me sorprendió",neutro,0.52
+453,Superó mis expectativas en todo sentido!,positivo,0.85
+454,"Me encantó, justo lo que estaba buscando",positivo,0.77
+455,"Recomendado para todos, excelente compra",positivo,0.77
+456,Producto completamente diferente a las fotos.,negativo,0.82
+457,"Calidad regular, no destaca en nada",neutro,0.6
+458,"El vendedor bloqueó mis mensajes, estafa.",negativo,0.89
+459,"Cumple todas mis necesidades, fantástico.",positivo,0.8
+460,"No cumple con lo prometido, decepcionante.",negativo,0.86
+461,La descripción coincide perfectamente con el producto!,positivo,0.85
+462,Precio justo para la calidad que ofrece,positivo,0.88
+463,Muy caro para la porquería que es,negativo,0.85
+464,Es un producto común y corriente,neutro,0.81
+465,Superó mis expectativas en todo sentido,positivo,0.97
+466,Sorprendido gratamente con la calidad,positivo,0.94
+467,Sorprendido gratamente con la calidad,positivo,0.75
+468,"Materiales de muy baja calidad, se nota",negativo,0.76
+469,"Materiales de muy baja calidad, se nota.",negativo,0.92
+470,"No sirve para lo que lo necesitaba, inútil!",negativo,0.94
+471,"No lo recomiendo, muy mala experiencia",negativo,0.95
+472,Envío seguro y producto intacto!,positivo,0.85
+473,Aceptable pero mejorable en varios aspectos,neutro,0.78
+474,Envío seguro y producto intacto,positivo,0.97
+475,"Sin ningún problema, todo perfecto",positivo,0.83
+476,"El producto es normal, nada especial!",neutro,0.64
+477,Es aceptable por el precio que tiene,neutro,0.69
+478,Llegó bien pero es bastante simple.,neutro,0.52
+479,"Producto de imitación, no es original",negativo,0.98
+480,"Calidad pésima, se desarmó al primer uso",negativo,0.72
+481,Llegó incompleto y con partes rotas,negativo,0.85
+482,"Estoy feliz con mi compra, gracias",positivo,0.89
+483,Envío seguro y producto intacto,positivo,0.92
+484,Sorprendido gratamente con la calidad!,positivo,0.93
+485,El empaque venía destruido y el producto dañado,negativo,0.96
+486,"Lo uso todos los días, muy útil",positivo,0.77
+487,"Recibí exactamente lo que pedí, perfecto",positivo,0.89
+488,Calidad superior a productos similares.,positivo,0.76
+489,Diseño hermoso y funcional a la vez!,positivo,0.86
+490,"El vendedor bloqueó mis mensajes, estafa",negativo,0.97
+491,No me arrepiento pero no estoy emocionado,neutro,0.55
+492,El peor producto que he comprado en línea,negativo,0.77
+493,"Es un producto básico, cumple lo mínimo.",neutro,0.64
+494,Empaque impecable y producto excelente.,positivo,0.86
+495,"Tardó más de un mes en llegar, terrible",negativo,0.72
+496,"Producto duradero y resistente, me gusta!",positivo,0.97
+497,"El servicio al cliente es pésimo, no ayudan",negativo,0.84
+498,"Tardó más de un mes en llegar, terrible",negativo,0.97
+499,"Hace lo que debe hacer, nada más",neutro,0.78
+500,"Es un producto básico, cumple lo mínimo!",neutro,0.72
+501,"No vale la pena, busquen otras opciones",negativo,0.78
+502,Atención al detalle impresionante,positivo,0.88
+503,"Recibí exactamente lo que pedí, perfecto.",positivo,0.84
+504,"Calidad regular, no destaca en nada!",neutro,0.83
+505,"Material aceptable, podría ser mejor",neutro,0.55
+506,"El producto es normal, nada especial!",neutro,0.82
+507,"Materiales de muy baja calidad, se nota.",negativo,0.87
+508,La descripción coincide perfectamente con el producto.,positivo,0.82
+509,No me arrepiento pero no estoy emocionado,neutro,0.76
+510,Aceptable pero mejorable en varios aspectos!,neutro,0.67
+511,La descripción coincide perfectamente con el producto.,positivo,0.94
+512,"No sirve para lo que lo necesitaba, inútil",negativo,0.87
+513,Superó mis expectativas en todo sentido.,positivo,0.98
+514,"Exactamente como en las fotos, muy bueno",positivo,0.89
+515,Calidad superior a productos similares,positivo,0.82
+516,Precio acorde a lo que ofrece.,neutro,0.8
+517,"Me solucionó el problema que tenía, genial",positivo,0.75
+518,Superó mis expectativas en todo sentido,positivo,0.78
+519,No tengo quejas pero tampoco elogios,neutro,0.76
+520,"Sin ningún problema, todo perfecto!",positivo,0.93
+521,"Producto duradero y resistente, me gusta!",positivo,0.79
+522,El peor producto que he comprado en línea,negativo,0.82
+523,No tengo quejas pero tampoco elogios,neutro,0.75
+524,Producto resistente y bien construido,positivo,0.82
+525,Llegó el producto equivocado y no solucionan,negativo,0.97
+526,"Pésima calidad, no lo recomiendo para nada!",negativo,0.9
+527,"Está bien por el momento, veremos con el tiempo!",neutro,0.57
+528,"No tengo ninguna queja, todo bien!",positivo,0.86
+529,"El vendedor bloqueó mis mensajes, estafa",negativo,0.71
+530,"La calidad es increíble, totalmente recomendado",positivo,0.79
+531,Llegó incompleto y con partes rotas,negativo,0.76
+532,"Muy satisfecho, compra inteligente",positivo,0.99
+533,Vino incompleto y faltaban piezas importantes,negativo,0.82
+534,Proceso de compra muy fácil y rápido,positivo,0.91
+535,"Calidad media, como la mayoría del mercado",neutro,0.59
+536,El peor producto que he comprado en línea,negativo,0.89
+537,Empaque impecable y producto excelente,positivo,0.88
+538,"Excelente producto, superó mis expectativas completamente",positivo,0.91
+539,El empaque venía destruido y el producto dañado.,negativo,0.85
+540,"Estafa total, no compren aquí",negativo,0.75
+541,Envío seguro y producto intacto,positivo,0.91
+542,La descripción coincide perfectamente con el producto!,positivo,0.81
+543,Producto auténtico y de alta calidad!,positivo,0.87
+544,Calidad horrible por el precio que pagué,negativo,0.7
+545,"Estoy feliz con mi compra, gracias.",positivo,0.83
+546,Producto decente para el precio,neutro,0.76
+547,"Calidad pésima, se desarmó al primer uso!",negativo,0.78
+548,Precio acorde a lo que ofrece.,neutro,0.53
+549,Producto completamente diferente a las fotos,negativo,0.82
+550,"Muy satisfecho, compra inteligente",positivo,0.86
+551,"No tengo ninguna queja, todo bien!",positivo,0.83
+552,"Tardó más de un mes en llegar, terrible",negativo,0.91
+553,"Mal servicio y peor producto, evítenlo",negativo,0.79
+554,"Recomendado para todos, excelente compra",positivo,0.88
+555,Funciona bien pero tiene algunos detalles,neutro,0.75
+556,"Calidad regular, no destaca en nada",neutro,0.56
+557,Producto resistente y bien construido,positivo,0.96
+558,"La calidad es increíble, totalmente recomendado!",positivo,0.85
+559,Producto versátil y de buena calidad 👍,positivo,0.83
+560,"Funciona como esperaba, muy eficiente",positivo,0.96
+561,"Muy satisfecho, compra inteligente.",positivo,0.88
+562,No es la gran cosa pero funciona,neutro,0.65
+563,Producto estándar sin características especiales.,neutro,0.72
+564,Producto defectuoso desde el inicio.,negativo,0.74
+565,"Muy satisfecho con la compra, volveré a comprar.",positivo,0.76
+566,"Pérdida de tiempo y dinero, terrible experiencia",negativo,0.73
+567,"No vale la pena, busquen otras opciones 👍",negativo,0.88
+568,"Me encantó, justo lo que estaba buscando.",positivo,0.79
+569,"No tengo ninguna queja, todo bien",positivo,0.81
+570,"Es lo que esperaba, ni más ni menos!",neutro,0.77
+571,El mejor producto que he comprado este año,positivo,0.88
+572,Muy buen acabado y presentación.,positivo,0.79
+573,"Es correcto, sin sorpresas buenas ni malas",neutro,0.62
+574,"Producto duradero y resistente, me gusta!",positivo,0.9
+575,Proceso de compra muy fácil y rápido.,positivo,0.99
+576,No tengo quejas pero tampoco elogios,neutro,0.55
+577,"No tengo ninguna queja, todo bien",positivo,0.98
+578,Calidad horrible por el precio que pagué!,negativo,0.94
+579,"El servicio al cliente fue excepcional, muy atentos",positivo,0.91
+580,"Pésima calidad, no lo recomiendo para nada!",negativo,0.79
+581,"No tengo ninguna queja, todo bien",positivo,0.78
+582,"Excelente producto, superó mis expectativas completamente",positivo,0.81
+583,"Producto promedio, estándar del mercado.",neutro,0.59
+584,Producto decente para el precio,neutro,0.75
+585,"El producto es normal, nada especial",neutro,0.59
+586,"No funciona correctamente, quiero devolución",negativo,0.81
+587,Llegó el producto equivocado y no solucionan!,negativo,0.76
+588,"No sirve para lo que lo necesitaba, inútil.",negativo,0.79
+589,"Excelente producto, superó mis expectativas completamente.",positivo,0.85
+590,"Me solucionó el problema que tenía, genial",positivo,0.91
+591,"Muy satisfecho, compra inteligente.",positivo,0.97
+592,"Producto promedio, estándar del mercado",neutro,0.56
+593,"El vendedor bloqueó mis mensajes, estafa",negativo,0.97
+594,"El producto es normal, nada especial",neutro,0.63
+595,No es malo pero tampoco es extraordinario,neutro,0.73
+596,"Estoy feliz con mi compra, gracias.",positivo,0.89
+597,"Producto duradero y resistente, me gusta.",positivo,0.91
+598,"Pésima calidad, no lo recomiendo para nada",negativo,0.7
+599,"No puedo creer que vendan esto, malísimo!",negativo,0.78
+600,Vino incompleto y faltaban piezas importantes,negativo,0.93
+601,"El servicio al cliente fue excepcional, muy atentos",positivo,0.85
+602,Producto auténtico y de alta calidad,positivo,0.9
+603,"Producto premium, vale cada peso invertido",positivo,0.78
+604,Producto auténtico y de alta calidad 😊,positivo,0.86
+605,"No funciona correctamente, quiero devolución",negativo,0.84
+606,Cumple expectativas básicas solamente,neutro,0.54
+607,Producto auténtico y de alta calidad,positivo,0.84
+608,Atención al detalle impresionante,positivo,0.84
+609,El producto no sirve absolutamente para nada,negativo,0.72
+610,El producto no sirve absolutamente para nada,negativo,0.73
+611,Producto original y de muy buena calidad 👍,positivo,0.91
+612,"El servicio al cliente fue excepcional, muy atentos.",positivo,0.83
+613,Cumple expectativas básicas solamente.,neutro,0.54
+614,"Pérdida de tiempo y dinero, terrible experiencia.",negativo,0.75
+615,"Tardó más de un mes en llegar, terrible",negativo,0.86
+616,Producto defectuoso desde el inicio 👍,negativo,0.8
+617,"Es un producto básico, cumple lo mínimo",neutro,0.75
+618,"Dinero tirado a la basura, muy malo.",negativo,0.7
+619,No es la gran cosa pero funciona,neutro,0.61
+620,Producto versátil y de buena calidad,positivo,0.91
+621,Es aceptable por el precio que tiene,neutro,0.66
+622,Llegó antes de lo esperado y en perfectas condiciones,positivo,0.96
+623,Cumple expectativas básicas solamente,neutro,0.63
+624,"Muy satisfecho con la compra, volveré a comprar",positivo,0.82
+625,"Recibí exactamente lo que pedí, perfecto",positivo,0.87
+626,"Vendedor irresponsable, no responde reclamos",negativo,0.85
+627,Producto original y de muy buena calidad,positivo,0.77
+628,Está bien para uso ocasional,neutro,0.81
+629,"Es correcto, sin sorpresas buenas ni malas",neutro,0.76
+630,Tardanza excesiva y producto mediocre.,negativo,0.78
+631,No tengo quejas pero tampoco elogios,neutro,0.79
+632,Calidad horrible por el precio que pagué!,negativo,0.73
+633,"Recomendado para todos, excelente compra!",positivo,0.9
+634,"El servicio al cliente es pésimo, no ayudan",negativo,0.75
+635,No tengo quejas pero tampoco elogios,neutro,0.59
+636,"Lo uso todos los días, muy útil",positivo,0.96
+637,Producto original y de muy buena calidad,positivo,0.86
+638,Cumple expectativas básicas solamente,neutro,0.84
+639,"Mal servicio y peor producto, evítenlo",negativo,0.71
+640,Llegó bien pero es bastante simple,neutro,0.69
+641,"Recibí exactamente lo que pedí, perfecto",positivo,0.86
+642,"Me encantó, justo lo que estaba buscando",positivo,0.88
+643,Producto auténtico y de alta calidad,positivo,0.99
+644,Aceptable pero mejorable en varios aspectos!,neutro,0.72
+645,El mejor producto que he comprado este año,positivo,0.94
+646,"No vale la pena, busquen otras opciones",negativo,0.93
+647,Cumple expectativas básicas solamente,neutro,0.84
+648,"Es lo que esperaba, ni más ni menos",neutro,0.79
+649,"Producto de muy mala calidad, no lo compren!",negativo,0.7
+650,No es la gran cosa pero funciona,neutro,0.67
+651,"No tengo ninguna queja, todo bien!",positivo,0.94
+652,Producto estándar sin características especiales,neutro,0.72
+653,Precio acorde a lo que ofrece!,neutro,0.5
+654,"Estafa total, no compren aquí",negativo,0.88
+655,No es la gran cosa pero funciona!,neutro,0.71
+656,No es la gran cosa pero funciona,neutro,0.85
+657,"No cumple con lo prometido, decepcionante 👍",negativo,0.98
+658,"Calidad media, como la mayoría del mercado!",neutro,0.59
+659,Llegó antes de lo esperado y en perfectas condiciones!,positivo,0.99
+660,Producto decente para el precio,neutro,0.51
+661,"Excelente producto, superó mis expectativas completamente",positivo,0.87
+662,Producto estándar sin características especiales.,neutro,0.8
+663,"Calidad media, como la mayoría del mercado",neutro,0.51
+664,"Producto promedio, estándar del mercado",neutro,0.65
+665,La descripción coincide perfectamente con el producto,positivo,0.8
+666,Llegó antes de lo esperado y en perfectas condiciones!,positivo,0.89
+667,"Vendedor irresponsable, no responde reclamos.",negativo,0.86
+668,La descripción coincide perfectamente con el producto,positivo,0.95
+669,Producto defectuoso desde el inicio.,negativo,0.82
+670,"Producto inservible, no compren!",negativo,0.74
+671,"Ni bueno ni malo, simplemente normal",neutro,0.76
+672,Llegó incompleto y con partes rotas!,negativo,0.95
+673,"Está bien por el momento, veremos con el tiempo.",neutro,0.81
+674,"Decepción total, esperaba mucho más",negativo,0.74
+675,"Recibí exactamente lo que pedí, perfecto",positivo,0.95
+676,"Muy satisfecho, compra inteligente",positivo,0.81
+677,El mejor producto que he comprado este año,positivo,0.87
+678,"Producto de imitación, no es original",negativo,0.93
+679,"Es lo que esperaba, ni más ni menos",neutro,0.76
+680,"Producto duradero y resistente, me gusta",positivo,0.95
+681,"Materiales de muy baja calidad, se nota",negativo,0.81
+682,"Es un producto básico, cumple lo mínimo",neutro,0.82
+683,El producto sirve pero hay mejores opciones.,neutro,0.63
+684,"Me solucionó el problema que tenía, genial.",positivo,0.96
+685,Es aceptable por el precio que tiene,neutro,0.69
+686,Producto auténtico y de alta calidad,positivo,0.97
+687,Muy caro para la porquería que es,negativo,0.81
+688,Llegó incompleto y con partes rotas 😊,negativo,0.79
+689,Empaque impecable y producto excelente,positivo,0.97
+690,"Producto premium, vale cada peso invertido!",positivo,0.9
+691,"Dinero tirado a la basura, muy malo",negativo,0.74
+692,"Pésima calidad, no lo recomiendo para nada",negativo,0.83
+693,"No lo recomiendo, muy mala experiencia",negativo,0.85
+694,"Materiales de muy baja calidad, se nota!",negativo,0.93
+695,Cumple expectativas básicas solamente,neutro,0.54
+696,"Lo uso todos los días, muy útil.",positivo,0.76
+697,"No vale la pena, busquen otras opciones",negativo,0.86
+698,"No tengo ninguna queja, todo bien",positivo,0.99
+699,"Vendedor irresponsable, no responde reclamos",negativo,0.74
+700,La descripción coincide perfectamente con el producto.,positivo,0.96
+701,No tengo quejas pero tampoco elogios,neutro,0.54
+702,"Producto de muy mala calidad, no lo compren!",negativo,0.83
+703,Producto estándar sin características especiales!,neutro,0.57
+704,Muy caro para la porquería que es,negativo,0.85
+705,No tengo quejas pero tampoco elogios,neutro,0.62
+706,Vino incompleto y faltaban piezas importantes.,negativo,0.96
+707,"Sin ningún problema, todo perfecto",positivo,0.97
+708,Diseño hermoso y funcional a la vez.,positivo,0.92
+709,El producto no sirve absolutamente para nada,negativo,0.82
+710,Producto decente para el precio,neutro,0.66
+711,"Calidad pésima, se desarmó al primer uso.",negativo,0.74
+712,"No cumple con lo prometido, decepcionante",negativo,0.97
+713,Atención al detalle impresionante,positivo,0.97
+714,El producto no sirve absolutamente para nada,negativo,0.85
+715,"Funciona como esperaba, muy eficiente",positivo,0.82
+716,Llegó antes de lo esperado y en perfectas condiciones,positivo,0.81
+717,"Mejor de lo que esperaba, muy contento",positivo,0.95
+718,Producto estándar sin características especiales!,neutro,0.7
+719,Tardanza excesiva y producto mediocre,negativo,0.93
+720,Muy buen acabado y presentación,positivo,0.88
+721,"Calidad regular, no destaca en nada",neutro,0.61
+722,Sorprendido gratamente con la calidad.,positivo,0.93
+723,"Totalmente insatisfecho, quiero mi dinero de vuelta",negativo,0.88
+724,Muy buen acabado y presentación.,positivo,0.87
+725,La mejor opción en el mercado actualmente 👍,positivo,0.77
+726,"Pésima calidad, no lo recomiendo para nada",negativo,0.74
+727,Diseño hermoso y funcional a la vez,positivo,0.86
+728,La descripción coincide perfectamente con el producto.,positivo,0.86
+729,"Me encantó, justo lo que estaba buscando",positivo,0.9
+730,El producto no sirve absolutamente para nada,negativo,0.73
+731,"SIN NINGÚN PROBLEMA, TODO PERFECTO",positivo,0.92
+732,"No funciona correctamente, quiero devolución",negativo,0.77
+733,"Servicio estándar, nada fuera de lo común",neutro,0.6
+734,El producto sirve pero hay mejores opciones,neutro,0.68
+735,Precio acorde a lo que ofrece 👍,neutro,0.6
+736,No tengo quejas pero tampoco elogios,neutro,0.78
+737,Es un producto común y corriente!,neutro,0.69
+738,"Me solucionó el problema que tenía, genial.",positivo,0.75
+739,"Calidad pésima, se desarmó al primer uso.",negativo,0.89
+740,No cumple ninguna de las características anunciadas,negativo,0.7
+741,El producto sirve pero hay mejores opciones!,neutro,0.67
+742,"Calidad media, como la mayoría del mercado!",neutro,0.58
+743,"Pérdida de tiempo y dinero, terrible experiencia",negativo,0.95
+744,"Servicio estándar, nada fuera de lo común",neutro,0.81
+745,"El servicio al cliente fue excepcional, muy atentos",positivo,0.82
+746,Producto completamente diferente a las fotos!,negativo,0.92
+747,Está bien para uso ocasional,neutro,0.72
+748,"Calidad regular, no destaca en nada",neutro,0.64
+749,"El producto es normal, nada especial",neutro,0.75
+750,Producto estándar sin características especiales,neutro,0.6
+751,EL PRODUCTO NO SIRVE ABSOLUTAMENTE PARA NADA,negativo,0.75
+752,"Es correcto, sin sorpresas buenas ni malas",neutro,0.74
+753,"Es correcto, sin sorpresas buenas ni malas",neutro,0.74
+754,"Producto duradero y resistente, me gusta!",positivo,0.84
+755,Llegó bien pero es bastante simple!,neutro,0.62
+756,"Producto de muy mala calidad, no lo compren",negativo,0.76
+757,El vendedor fue muy profesional y rápido,positivo,0.89
+758,Producto estándar sin características especiales,neutro,0.73
+759,"Producto de muy mala calidad, no lo compren",negativo,0.86
+760,"Calidad pésima, se desarmó al primer uso",negativo,0.72
+761,"Exactamente como en las fotos, muy bueno!",positivo,0.88
+762,Muy caro para la porquería que es,negativo,0.79
+763,Producto resistente y bien construido.,positivo,0.79
+764,Es un producto común y corriente,neutro,0.75
+765,"Tardó más de un mes en llegar, terrible!",negativo,0.77
+766,"Materiales de muy baja calidad, se nota",negativo,0.91
+767,Envío seguro y producto intacto,positivo,0.83
+768,No me arrepiento pero no estoy emocionado,neutro,0.63
+769,"Servicio estándar, nada fuera de lo común",neutro,0.57
+770,Empaque impecable y producto excelente,positivo,0.9
+771,Aceptable pero mejorable en varios aspectos,neutro,0.54
+772,"No sirve para lo que lo necesitaba, inútil",negativo,0.91
+773,Producto resistente y bien construido,positivo,0.85
+774,"No sirve para lo que lo necesitaba, inútil",negativo,0.89
+775,"No cumple con lo prometido, decepcionante",negativo,0.83
+776,"Calidad media, como la mayoría del mercado",neutro,0.73
+777,"Mal servicio y peor producto, evítenlo",negativo,0.94
+778,El vendedor fue muy profesional y rápido.,positivo,0.98
+779,"Funciona perfecto, tal como se describe!",positivo,0.88
+780,"No sirve para lo que lo necesitaba, inútil",negativo,0.8
+781,"No vale la pena, busquen otras opciones",negativo,0.95
+782,Llegó dañado y el vendedor no responde,negativo,0.85
+783,"Me encantó, justo lo que estaba buscando",positivo,0.85
+784,"Muy satisfecho con la compra, volveré a comprar",positivo,0.76
+785,Empaque impecable y producto excelente,positivo,0.88
+786,"Excelente producto, superó mis expectativas completamente",positivo,0.92
+787,Precio acorde a lo que ofrece,neutro,0.57
+788,Llegó bien pero es bastante simple,neutro,0.58
+789,Llegó el producto equivocado y no solucionan,negativo,0.81
+790,"Mejor de lo que esperaba, muy contento",positivo,0.87
+791,"Pérdida de tiempo y dinero, terrible experiencia.",negativo,0.8
+792,Muy caro para la porquería que es,negativo,0.9
+793,"Cumple su función básica, sin más",neutro,0.72
+794,Aceptable pero mejorable en varios aspectos,neutro,0.84
+795,Producto estándar sin características especiales,neutro,0.84
+796,"Dinero tirado a la basura, muy malo",negativo,0.74
+797,"Es correcto, sin sorpresas buenas ni malas.",neutro,0.84
+798,"Está bien por el momento, veremos con el tiempo!",neutro,0.73
+799,Llegó el producto equivocado y no solucionan,negativo,0.83
+800,"El producto es normal, nada especial!",neutro,0.75
+801,"Producto inservible, no compren.",negativo,0.81
+802,No es la gran cosa pero funciona,neutro,0.67
+803,"No puedo creer que vendan esto, malísimo",negativo,0.89
+804,"Calidad media, como la mayoría del mercado",neutro,0.8
+805,"Lo recomiendo 100%, no se arrepentirán.",positivo,0.95
+806,Precio justo para la calidad que ofrece!,positivo,0.84
+807,El producto no sirve absolutamente para nada!,negativo,0.95
+808,Producto resistente y bien construido!,positivo,0.83
+809,"Producto de muy mala calidad, no lo compren",negativo,0.91
+810,Muy buen acabado y presentación.,positivo,0.8
+811,"Decepción total, esperaba mucho más",negativo,0.85
+812,"Recomendado para todos, excelente compra",positivo,0.95
+813,"Producto inservible, no compren",negativo,0.83
+814,No es la gran cosa pero funciona,neutro,0.52
+815,"Calidad regular, no destaca en nada",neutro,0.65
+816,Cumple expectativas básicas solamente,neutro,0.67
+817,El producto sirve pero hay mejores opciones,neutro,0.6
+818,"Producto de muy mala calidad, no lo compren",negativo,0.8
+819,"Me solucionó el problema que tenía, genial",positivo,0.79
+820,"Calidad pésima, se desarmó al primer uso",negativo,0.93
+821,"Lo uso todos los días, muy útil",positivo,0.83
+822,"No vale la pena, busquen otras opciones",negativo,0.94
+823,"Mal servicio y peor producto, evítenlo.",negativo,0.82
+824,"Materiales de muy baja calidad, se nota",negativo,0.89
+825,Producto defectuoso desde el inicio,negativo,0.76
+826,"Producto de imitación, no es original 👍",negativo,0.81
+827,Producto decente para el precio,neutro,0.63
+828,"Estoy feliz con mi compra, gracias!",positivo,0.91
+829,"Exactamente como en las fotos, muy bueno",positivo,0.99
+830,"Ni bueno ni malo, simplemente normal",neutro,0.72
+831,Diseño hermoso y funcional a la vez.,positivo,0.93
+832,"Es lo que esperaba, ni más ni menos.",neutro,0.72
+833,"Calidad media, como la mayoría del mercado!",neutro,0.54
+834,"La calidad es increíble, totalmente recomendado",positivo,0.83
+835,"Lo recomiendo 100%, no se arrepentirán",positivo,0.83
+836,Funciona bien pero tiene algunos detalles,neutro,0.57
+837,"Materiales de muy baja calidad, se nota",negativo,0.7
+838,Precio acorde a lo que ofrece.,neutro,0.5
+839,No cumple ninguna de las características anunciadas,negativo,0.75
+840,"No funciona como se describe, mentiras.",negativo,0.87
+841,El empaque venía destruido y el producto dañado,negativo,0.98
+842,"Mal servicio y peor producto, evítenlo.",negativo,0.95
+843,"No vale la pena, busquen otras opciones",negativo,0.97
+844,Envío seguro y producto intacto,positivo,0.94
+845,No es la gran cosa pero funciona,neutro,0.77
+846,El producto no sirve absolutamente para nada,negativo,0.97
+847,"Estafa total, no compren aquí",negativo,0.77
+848,"No funciona correctamente, quiero devolución",negativo,0.76
+849,"No lo recomiendo, muy mala experiencia",negativo,0.96
+850,"Exactamente como en las fotos, muy bueno!",positivo,0.97
+851,Envío seguro y producto intacto,positivo,0.81
+852,"Es un producto básico, cumple lo mínimo",neutro,0.74
+853,No es la gran cosa pero funciona!,neutro,0.84
+854,"Me solucionó el problema que tenía, genial",positivo,0.99
+855,"Sin ningún problema, todo perfecto",positivo,0.78
+856,"No tengo ninguna queja, todo bien.",positivo,0.97
+857,"Es correcto, sin sorpresas buenas ni malas!",neutro,0.74
+858,Muy buen acabado y presentación,positivo,0.79
+859,"Producto inservible, no compren",negativo,0.74
+860,No es malo pero tampoco es extraordinario,neutro,0.78
+861,"Funciona perfecto, tal como se describe",positivo,0.89
+862,"Producto duradero y resistente, me gusta",positivo,0.84
+863,"No puedo creer que vendan esto, malísimo",negativo,0.81
+864,"Materiales de muy baja calidad, se nota.",negativo,0.76
+865,"No tengo ninguna queja, todo bien",positivo,0.84
+866,"Materiales de muy baja calidad, se nota.",negativo,0.82
+867,Llegó el producto equivocado y no solucionan,negativo,0.82
+868,La mejor opción en el mercado actualmente.,positivo,0.86
+869,"Funciona como esperaba, muy eficiente",positivo,0.94
+870,Calidad horrible por el precio que pagué!,negativo,0.93
+871,Vino incompleto y faltaban piezas importantes,negativo,0.89
+872,Calidad superior a productos similares,positivo,0.8
+873,"Producto promedio, estándar del mercado",neutro,0.56
+874,"Llegó usado o defectuoso, inaceptable",negativo,0.97
+875,"Está bien por el momento, veremos con el tiempo!",neutro,0.73
+876,"Hace lo que debe hacer, nada más.",neutro,0.75
+877,"Cinco estrellas sin dudarlo, perfecto",positivo,0.94
+878,"Calidad media, como la mayoría del mercado",neutro,0.69
+879,"Material de excelente calidad, se nota",positivo,0.86
+880,La descripción coincide perfectamente con el producto.,positivo,0.87
+881,La descripción coincide perfectamente con el producto,positivo,0.92
+882,"No vale la pena, busquen otras opciones",negativo,0.95
+883,Producto versátil y de buena calidad!,positivo,0.96
+884,Envío seguro y producto intacto,positivo,0.92
+885,Producto decente para el precio,neutro,0.73
+886,"Mejor de lo que esperaba, muy contento.",positivo,0.93
+887,"Es un producto básico, cumple lo mínimo",neutro,0.55
+888,"Funciona perfecto, tal como se describe.",positivo,0.82
+889,Está bien para uso ocasional.,neutro,0.67
+890,"Llegó bien protegido, excelente empaque!",positivo,0.78
+891,"Estafa total, no compren aquí",negativo,0.93
+892,"Materiales de muy baja calidad, se nota",negativo,0.78
+893,Llegó el producto equivocado y no solucionan!,negativo,0.85
+894,El vendedor fue muy profesional y rápido.,positivo,0.94
+895,"No lo recomiendo, muy mala experiencia",negativo,0.92
+896,Atención al detalle impresionante,positivo,0.93
+897,"El vendedor bloqueó mis mensajes, estafa",negativo,0.73
+898,"No cumple con lo prometido, decepcionante",negativo,0.86
+899,Tardanza excesiva y producto mediocre,negativo,0.82
+900,"Hace lo que debe hacer, nada más",neutro,0.73
+901,Es aceptable por el precio que tiene!,neutro,0.5
+902,Producto decente para el precio,neutro,0.82
+903,Calidad superior a productos similares,positivo,0.77
+904,Muy buen acabado y presentación,positivo,0.77
+905,La descripción coincide perfectamente con el producto,positivo,0.96
+906,Muy caro para la porquería que es,negativo,0.95
+907,"El servicio al cliente es pésimo, no ayudan.",negativo,0.91
+908,"Llegó usado o defectuoso, inaceptable",negativo,0.96
+909,"Tardó más de un mes en llegar, terrible!",negativo,0.71
+910,"Mal servicio y peor producto, evítenlo",negativo,0.78
+911,"Ni bueno ni malo, simplemente normal!",neutro,0.73
+912,"Es lo que esperaba, ni más ni menos.",neutro,0.64
+913,Producto versátil y de buena calidad!,positivo,0.77
+914,"No cumple con lo prometido, decepcionante",negativo,0.8
+915,"Excelente producto, superó mis expectativas completamente",positivo,0.99
+916,La mejor opción en el mercado actualmente,positivo,0.76
+917,"Servicio estándar, nada fuera de lo común",neutro,0.6
+918,No tengo quejas pero tampoco elogios,neutro,0.7
+919,"No funciona como se describe, mentiras",negativo,0.8
+920,"Recomendado para todos, excelente compra",positivo,0.75
+921,"No tengo ninguna queja, todo bien.",positivo,0.85
+922,"Cumple todas mis necesidades, fantástico",positivo,0.77
+923,"Servicio estándar, nada fuera de lo común!",neutro,0.52
+924,El peor producto que he comprado en línea.,negativo,0.8
+925,"Producto de muy mala calidad, no lo compren",negativo,0.75
+926,Tardanza excesiva y producto mediocre!,negativo,0.73
+927,"La calidad es increíble, totalmente recomendado",positivo,0.77
+928,"Excelente producto, superó mis expectativas completamente",positivo,0.85
+929,Empaque impecable y producto excelente!,positivo,0.97
+930,"Cumple su función básica, sin más",neutro,0.85
+931,Llegó incompleto y con partes rotas,negativo,0.92
+932,Atención al detalle impresionante,positivo,0.91
+933,Llegó bien pero es bastante simple,neutro,0.61
+934,"Me encantó, justo lo que estaba buscando",positivo,0.99
+935,"Material de excelente calidad, se nota",positivo,0.96
+936,"Sin ningún problema, todo perfecto",positivo,0.98
+937,Llegó dañado y el vendedor no responde.,negativo,0.94
+938,"Muy satisfecho, compra inteligente",positivo,0.89
+939,"Recibí exactamente lo que pedí, perfecto",positivo,0.83
+940,"Mejor de lo que esperaba, muy contento",positivo,0.91
+941,"Ni bueno ni malo, simplemente normal",neutro,0.57
+942,"Producto promedio, estándar del mercado",neutro,0.5
+943,"Calidad pésima, se desarmó al primer uso",negativo,0.9
+944,"Ni bueno ni malo, simplemente normal!",neutro,0.57
+945,"Pésima calidad, no lo recomiendo para nada",negativo,0.82
+946,No es malo pero tampoco es extraordinario,neutro,0.66
+947,"No sirve para lo que lo necesitaba, inútil.",negativo,0.84
+948,"Es lo que esperaba, ni más ni menos.",neutro,0.67
+949,"Funciona como esperaba, muy eficiente!",positivo,0.77
+950,"Vendedor irresponsable, no responde reclamos",negativo,0.79
+951,"Producto promedio, estándar del mercado",neutro,0.76
+952,Producto completamente diferente a las fotos,negativo,0.97
+953,"El vendedor bloqueó mis mensajes, estafa.",negativo,0.78
+954,Diseño hermoso y funcional a la vez 👍,positivo,0.84
+955,No es malo pero tampoco es extraordinario,neutro,0.71
+956,"Dinero tirado a la basura, muy malo",negativo,0.85
+957,"No funciona correctamente, quiero devolución!",negativo,0.94
+958,"Mal servicio y peor producto, evítenlo",negativo,0.89
+959,Estoy esperando reembolso desde hace semanas,negativo,0.83
+960,Proceso de compra muy fácil y rápido,positivo,0.98
+961,El producto no sirve absolutamente para nada,negativo,0.92
+962,"Materiales de muy baja calidad, se nota",negativo,0.89
+963,No es malo pero tampoco es extraordinario.,neutro,0.68
+964,Producto completamente diferente a las fotos,negativo,0.85
+965,Precio justo para la calidad que ofrece.,positivo,0.89
+966,"Exactamente como en las fotos, muy bueno",positivo,0.96
+967,La descripción coincide perfectamente con el producto.,positivo,0.95
+968,"Vendedor irresponsable, no responde reclamos",negativo,0.84
+969,"Recomendado para todos, excelente compra",positivo,0.96
+970,"Producto premium, vale cada peso invertido!",positivo,0.87
+971,Funciona bien pero tiene algunos detalles,neutro,0.79
+972,Producto resistente y bien construido,positivo,0.98
+973,"Funciona perfecto, tal como se describe",positivo,0.97
+974,"Es un producto básico, cumple lo mínimo.",neutro,0.56
+975,Llegó el producto equivocado y no solucionan,negativo,0.93
+976,No responden mensajes ni dan soluciones,negativo,0.9
+977,"Funciona como esperaba, muy eficiente",positivo,0.98
+978,"El producto es normal, nada especial!",neutro,0.75
+979,Producto resistente y bien construido,positivo,0.85
+980,El producto no sirve absolutamente para nada!,negativo,0.86
+981,Producto auténtico y de alta calidad!,positivo,0.92
+982,El empaque venía destruido y el producto dañado,negativo,0.78
+983,Está bien para uso ocasional!,neutro,0.81
+984,Producto resistente y bien construido,positivo,0.75
+985,"Cinco estrellas sin dudarlo, perfecto",positivo,0.91
+986,Atención al detalle impresionante,positivo,0.78
+987,"Producto inservible, no compren.",negativo,0.75
+988,"Recomendado para todos, excelente compra.",positivo,0.85
+989,Calidad superior a productos similares,positivo,0.95
+990,"Estafa total, no compren aquí",negativo,0.89
+991,Llegó antes de lo esperado y en perfectas condiciones.,positivo,0.9
+992,"No puedo creer que vendan esto, malísimo!",negativo,0.88
+993,Producto resistente y bien construido,positivo,0.98
+994,"Pésima calidad, no lo recomiendo para nada.",negativo,0.94
+995,"Producto premium, vale cada peso invertido!",positivo,0.9
+996,Producto resistente y bien construido,positivo,0.85
+997,"Producto duradero y resistente, me gusta",positivo,0.88
+998,"Llegó en el tiempo indicado, sin problemas!",neutro,0.69
+999,"Calidad pésima, se desarmó al primer uso!",negativo,0.88
+1000,"Lo recomiendo 100%, no se arrepentirán!",positivo,0.89
