@@ -1,0 +1,28 @@
+{
+  "modelo_seleccionado": "Logistic Regression",
+  "fecha_entrenamiento": "2025-12-29 10:40:40",
+  "metricas": {
+    "accuracy": 0.98,
+    "precision": 0.9799855459920014,
+    "recall": 0.98,
+    "f1_score": 0.9798602327147324
+  },
+  "dataset": {
+    "total_muestras": 1000,
+    "train_size": 800,
+    "test_size": 200
+  },
+  "vocabulario": {
+    "size": 538,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 5000
+  },
+  "clases": [
+    "negativo",
+    "neutro",
+    "positivo"
+  ]
+}
