@@ -22,7 +22,7 @@ public class SentimentRequest {
     // Por qué: evitamos recibir null, vacío o solo espacios.
     @NotBlank(message = "El texto no puede estar vacío")
     // Por qué: prevenimos textos muy cortos o extremadamente largos.
-    @Size(min = 3, max = 2000, message = "text must be between 3 and 2000 characters")
+    @Size(min = 3, max = 2000, message = "El texto debe tener entre 3 y 2000 caracteres")
     private String text;
 
 }
