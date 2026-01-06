@@ -22,7 +22,7 @@ public class HealthController {
      * 200 OK
      * "OK"
      */
-    @GetMapping("/health")
+    @GetMapping("/api/v1/health")
     public String health() {
         return "OK";
     }
