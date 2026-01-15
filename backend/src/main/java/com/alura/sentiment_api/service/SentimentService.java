@@ -6,8 +6,10 @@ import org.springframework.web.client.RestTemplate;
 
 import com.alura.sentiment_api.dto.SentimentRequest;
 import com.alura.sentiment_api.dto.SentimentResponse;
+import com.alura.sentiment_api.exception.DataScienceServiceException;
 import com.alura.sentiment_api.model.entity.SentimentLog;
 import com.alura.sentiment_api.repository.SentimentRepository;
+import com.alura.sentiment_api.exception.DataScienceServiceException;
 
 @Service
 public class SentimentService {
@@ -34,7 +36,8 @@ public class SentimentService {
             return response;
 
         } catch (Exception e) {
-            throw new RuntimeException("Error de conexión con el servicio de DataScience: " + e.getMessage());
+            throw new DataScienceServiceException(
+                    "Error de conexión con el servicio de DataScience: " + e.getMessage());
         }
     }
 
