@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# Data Science específicos
+data-science/venv/
+data-science/__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+
+# Logs
+*.log
