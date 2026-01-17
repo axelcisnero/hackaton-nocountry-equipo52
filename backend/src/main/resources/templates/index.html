@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentiment Dashboard | Alura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8f9fa; }
+        .card { border: none; border-radius: 12px; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+        .stat-card { border-left: 5px solid; }
+        .badge-positivo { background-color: #28a745; }
+        .badge-negativo { background-color: #dc3545; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark mb-4">
+    <div class="container">
+        <span class="navbar-brand mb-0 h1">SentimentAPI</span>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card shadow-sm p-4 mb-4">
+                <h5 class="fw-bold mb-3">Analizar Comentario</h5>
+                <form th:action="@{/analyze}" method="post">
+                    <div class="mb-3">
+                        <textarea name="text" class="form-control" rows="4" placeholder="Escribe aquí..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 fw-bold">Analizar</button>
+                </form>
+            </div>
+
+            <div th:if="${response}" class="card shadow-sm p-4 mb-4 border-start border-4"
+                th:classappend="${#strings.toLowerCase(response.prediction) == 'positivo'} ? 'border-success' : 'border-danger'">
+                
+                <h6 class="text-muted text-uppercase small">Resultado Actual</h6>
+                <h3 class="fw-bold" 
+                    th:classappend="${#strings.toLowerCase(response.prediction) == 'positivo'} ? 'text-success' : 'text-danger'"
+                    th:text="${response.prediction}"></h3>
+                <div class="progress mt-2" style="height: 10px;">
+                    <div class="progress-bar" 
+                        th:style="'width:' + (${response.probability} * 100) + '%'" 
+                        th:classappend="${#strings.toLowerCase(response.prediction) == 'positivo'} ? 'bg-success' : 'bg-danger'">
+                    </div>
+                </div>
+                <small class="text-muted mt-1 d-block text-end">Confianza: <span th:text="${#numbers.formatDecimal(response.probability * 100, 1, 1)}"></span>%</small>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="card shadow-sm p-3 stat-card border-primary">
+                        <small class="text-muted">Total de Análisis</small>
+                        <h2 class="fw-bold" th:text="${history.size()}">0</h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <canvas id="sentimentChart" style="max-height: 150px;"></canvas>
+                </div>
+            </div>
+
+            <div class="card shadow-sm">
+                <div class="card-header bg-white py-3">
+                    <h5 class="fw-bold mb-0">Historial Reciente</h5>
+                </div>
+                <div class="table-responsive p-3">
+                    <table class="table align-middle">
+                        <thead>
+                            <tr>
+                                <th>Comentario</th>
+                                <th>Sentimiento</th>
+                                <th>Confianza</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr th:each="item : ${history}">
+                                <td class="text-truncate" style="max-width: 250px;" th:text="${item.text}"></td>
+                                <td>
+                                    <span class="badge rounded-pill" 
+                                        th:classappend="${#strings.toLowerCase(item.prediction) == 'positivo'} ? 'bg-success' : 'bg-danger'"
+                                        th:text="${item.prediction}">
+                                    </span>
+                                </td>
+                                <td th:text="${#numbers.formatDecimal(item.probability * 100, 1, 1)} + '%'"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script th:inline="javascript">
+    /* Lógica para la gráfica */
+    const history = [[${history}]];
+    const positivos = history.filter(h => h.prediction === 'Positivo').length;
+    const negativos = history.filter(h => h.prediction === 'Negativo').length;
+
+    const ctx = document.getElementById('sentimentChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['Positivos', 'Negativos'],
+            datasets: [{
+                data: [positivos, negativos],
+                backgroundColor: ['#28a745', '#dc3545'],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            plugins: { legend: { position: 'right' } },
+            cutout: '70%'
+        }
+    });
+</script>
+
+</body>
+</html>
