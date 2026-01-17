@@ -2,35 +2,33 @@ from flask import Flask, request, jsonify
 import joblib
 import numpy as np
 
-# Cargar modelo y vectorizador UNA sola vez
-vectorizer = joblib.load("tfidf_vectorizer.joblib")
-model = joblib.load("modelo_sentimiento.joblib")
+# Carga UNA sola vez al iniciar el servicio
+pipeline = joblib.load("sentiment_pipeline.joblib")
 
 app = Flask(__name__)
 
 @app.route("/predict", methods=["POST"])
 def predict():
-    data = request.get_json()
+    data = request.get_json(silent=True)
 
     if not data or "text" not in data:
         return jsonify({"error": "text is required"}), 400
 
     text = data["text"]
-
-    # Vectorizar texto
-    X = vectorizer.transform([text])
+    if text is None or str(text).strip() == "":
+        return jsonify({"error": "text is required"}), 400
 
     # Predicción
-    prediction = model.predict(X)[0]
+    pred = pipeline.predict([text])[0]
 
-    # Probabilidad (si el modelo la soporta)
-    if hasattr(model, "predict_proba"):
-        probability = float(np.max(model.predict_proba(X)))
-    else:
-        probability = None
+    # Probabilidad (si el pipeline/modelo la soporta)
+    probability = None
+    if hasattr(pipeline, "predict_proba"):
+        probs = pipeline.predict_proba([text])[0]
+        probability = float(np.max(probs))
 
     return jsonify({
-        "prediction": str(prediction),
+        "prediction": str(pred),
         "probability": probability
     })
 
