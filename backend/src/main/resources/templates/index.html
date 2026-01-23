@@ -11,15 +11,25 @@
         .card { border: none; border-radius: 12px; transition: transform 0.2s; }
         .card:hover { transform: translateY(-5px); }
         .stat-card { border-left: 5px solid; }
-        .badge-positivo { background-color: #28a745; }
-        .badge-negativo { background-color: #dc3545; }
+        .bg-positivo { background-color: #28a745 !important; }
+        .bg-negativo { background-color: #dc3545 !important; }
+        .bg-neutro { background-color: #ffc107 !important; color: #000 !important; }
     </style>
 </head>
 <body>
 
-<nav class="navbar navbar-dark bg-dark mb-4">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 shadow">
     <div class="container">
-        <span class="navbar-brand mb-0 h1">SentimentAPI</span>
+        <a class="navbar-brand fw-bold" href="/">SentimentAPI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="/">Analizador</a></li>
+                <li class="nav-item"><a class="nav-link" href="/dashboard">Estadísticas</a></li>
+            </ul>
+        </div>
     </div>
 </nav>
 
@@ -37,16 +47,17 @@
             </div>
 
             <div th:if="${response}" class="card shadow-sm p-4 mb-4 border-start border-4"
-                th:classappend="${#strings.toLowerCase(response.prediction) == 'positivo'} ? 'border-success' : 'border-danger'">
+                th:classappend="${#strings.toLowerCase(response.prediction) == 'positivo' ? 'border-success' : (#strings.toLowerCase(response.prediction) == 'negativo' ? 'border-danger' : 'border-warning')}">
                 
                 <h6 class="text-muted text-uppercase small">Resultado Actual</h6>
                 <h3 class="fw-bold" 
-                    th:classappend="${#strings.toLowerCase(response.prediction) == 'positivo'} ? 'text-success' : 'text-danger'"
+                    th:classappend="${#strings.toLowerCase(response.prediction) == 'positivo' ? 'text-success' : (#strings.toLowerCase(response.prediction) == 'negativo' ? 'text-danger' : 'text-warning')}"
                     th:text="${response.prediction}"></h3>
+                
                 <div class="progress mt-2" style="height: 10px;">
                     <div class="progress-bar" 
                         th:style="'width:' + (${response.probability} * 100) + '%'" 
-                        th:classappend="${#strings.toLowerCase(response.prediction) == 'positivo'} ? 'bg-success' : 'bg-danger'">
+                        th:classappend="${#strings.toLowerCase(response.prediction) == 'positivo' ? 'bg-success' : (#strings.toLowerCase(response.prediction) == 'negativo' ? 'bg-danger' : 'bg-warning')}">
                     </div>
                 </div>
                 <small class="text-muted mt-1 d-block text-end">Confianza: <span th:text="${#numbers.formatDecimal(response.probability * 100, 1, 1)}"></span>%</small>
@@ -67,26 +78,19 @@
             </div>
 
             <div class="card shadow-sm">
-                <div class="card-header bg-white py-3">
-                    <h5 class="fw-bold mb-0">Historial Reciente</h5>
-                </div>
+                <div class="card-header bg-white py-3"><h5 class="fw-bold mb-0">Historial Reciente</h5></div>
                 <div class="table-responsive p-3">
                     <table class="table align-middle">
                         <thead>
-                            <tr>
-                                <th>Comentario</th>
-                                <th>Sentimiento</th>
-                                <th>Confianza</th>
-                            </tr>
+                            <tr><th>Comentario</th><th>Sentimiento</th><th>Confianza</th></tr>
                         </thead>
                         <tbody>
                             <tr th:each="item : ${history}">
                                 <td class="text-truncate" style="max-width: 250px;" th:text="${item.text}"></td>
                                 <td>
                                     <span class="badge rounded-pill" 
-                                        th:classappend="${#strings.toLowerCase(item.prediction) == 'positivo'} ? 'bg-success' : 'bg-danger'"
-                                        th:text="${item.prediction}">
-                                    </span>
+                                        th:classappend="${#strings.toLowerCase(item.prediction) == 'positivo' ? 'bg-success' : (#strings.toLowerCase(item.prediction) == 'negativo' ? 'bg-danger' : 'bg-warning')}"
+                                        th:text="${item.prediction}"></span>
                                 </td>
                                 <td th:text="${#numbers.formatDecimal(item.probability * 100, 1, 1)} + '%'"></td>
                             </tr>
@@ -99,28 +103,24 @@
 </div>
 
 <script th:inline="javascript">
-    /* Lógica para la gráfica */
     const history = [[${history}]];
-    const positivos = history.filter(h => h.prediction === 'Positivo').length;
-    const negativos = history.filter(h => h.prediction === 'Negativo').length;
+    const positivos = history.filter(h => h.prediction.toLowerCase() === 'positivo').length;
+    const negativos = history.filter(h => h.prediction.toLowerCase() === 'negativo').length;
+    const neutros = history.filter(h => h.prediction.toLowerCase() === 'neutro').length;
 
-    const ctx = document.getElementById('sentimentChart').getContext('2d');
-    new Chart(ctx, {
+    new Chart(document.getElementById('sentimentChart'), {
         type: 'doughnut',
         data: {
-            labels: ['Positivos', 'Negativos'],
+            labels: ['Positivos', 'Negativos', 'Neutros'],
             datasets: [{
-                data: [positivos, negativos],
-                backgroundColor: ['#28a745', '#dc3545'],
+                data: [positivos, negativos, neutros],
+                backgroundColor: ['#28a745', '#dc3545', '#ffc107'],
                 borderWidth: 0
             }]
         },
-        options: {
-            plugins: { legend: { position: 'right' } },
-            cutout: '70%'
-        }
+        options: { plugins: { legend: { position: 'right' } }, cutout: '70%' }
     });
 </script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

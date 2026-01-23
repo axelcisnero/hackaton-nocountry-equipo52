@@ -11,5 +11,5 @@ import com.alura.sentiment_api.model.entity.SentimentLog;
  */
 @Repository
 public interface SentimentRepository extends JpaRepository<SentimentLog, Long> {
-    // Aquí podrías añadir métodos personalizados para las estadísticas después
+    long countByPrediction(String prediction);
 }

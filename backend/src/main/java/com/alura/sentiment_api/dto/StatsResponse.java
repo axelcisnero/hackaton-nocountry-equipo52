@@ -34,4 +34,9 @@ public class StatsResponse {
      * Porcentaje de sentimientos negativos sobre el total.
      */
     private double negativoPct;
+
+    /**
+     * Porcentaje de sentimientos neutros sobre el total.
+     */
+    private double neutroPct;
 }
